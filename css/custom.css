@@ -650,9 +650,9 @@ header .caption {
     color: white;
 }
 
-.inner_content h2:hover{border:2px solid #fff; color: grey;}
-
-.inner_content span:hover{border:2px solid #fff; color: grey;}
+.col-sm-4:hover h2 { color: grey;}
+.col-sm-4:hover span { color: grey;}
+.col-sm-4:hover menu { color: grey;}
 
 .inner_content {
     display: block;
