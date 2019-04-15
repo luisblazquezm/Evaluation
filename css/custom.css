@@ -1184,3 +1184,33 @@ address,.subscribe > p {
     grid-row: 1;
      width: 120px;
 }
+
+.repairing-page {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(50px, 0px);
+    grid-column-gap: 10px;
+    margin-bottom: 450px;
+}
+
+#repairing-logo {
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 300px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.repairing-page h4 {
+    color: black;
+    margin-top: 300px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.repairing-page p {
+    color: black;
+    width: 400px;
+    grid-column: 2;
+    grid-row: 8;
+}
