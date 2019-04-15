@@ -271,6 +271,7 @@ nav.navbar.bootsnav {
 }
 .logo {
     width: 160px;
+    color: black;
 }
 .attr-nav {
     margin-right: 105px;
@@ -1213,4 +1214,9 @@ address,.subscribe > p {
     width: 400px;
     grid-column: 2;
     grid-row: 8;
+}
+
+#barraNavegacion a{
+	font-size: 15px;
+	margin-left: 100px;
 }
