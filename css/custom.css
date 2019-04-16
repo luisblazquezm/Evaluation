@@ -1106,13 +1106,13 @@ address,.subscribe > p {
 /*Menu-webpage*/
 .menu-page {
   align-content: center;
-  margin-top: 10px;
+
+  padding-top: 110px;
   padding-bottom: 10px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  padding-right: 20px;
+  margin-bottom: 50px;
+  padding-right: 50px;
   margin-right: 20px;
-  padding-left: 80px;
+  padding-left: 50px;
   margin-left: 0px;
 }
 
@@ -1219,4 +1219,24 @@ address,.subscribe > p {
 #barraNavegacion a{
 	font-size: 15px;
 	margin-left: 100px;
+}
+
+#header {
+    background-color: #444;
+    margin-top: -10px;
+    padding-bottom: 30px;
+}
+
+#header_drink {
+    margin-top: -30px;
+    background-color: #444;
+}
+
+#contact_block {
+    padding-top: 220px;
+    padding-bottom: 300px;
+}
+
+#contact_block h2 {
+    color: #D1B980;
 }
